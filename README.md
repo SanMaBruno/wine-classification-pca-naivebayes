@@ -14,48 +14,41 @@ Este proyecto tiene como objetivo clasificar diferentes tipos de vinos basados e
 - [Conclusión](#conclusión)
 - [Créditos](#créditos)
 
-## Estructura del Proyecto
+# Estructura del Proyecto
+
 El proyecto está organizado en las siguientes carpetas:
 
-wine-classification-pca-naivebayes/
-│
-├── data/
-│   ├── raw/                         # Datos crudos descargados
-│   │   ├── wine.data                # Conjunto de datos original
-│   │   └── wine.names               # Descripción del conjunto de datos
-│   ├── processed/                   # Datos procesados y limpios
-│   │   └── cleaned_wine_data.csv    # Datos finales utilizados
-│
-├── docs/                            # Documentación
-│   └── final_report.pdf             # Informe final del proyecto
-│
-├── environments/                    # Configuración del entorno virtual
-│   └── env/                         # Entorno virtual de Python
-│
-├── models/                          # Modelos entrenados
-│   ├── naive_bayes_model.pkl        # Modelo Naive Bayes entrenado
-│   └── best_naive_bayes_model.pkl   # Mejor modelo entrenado
-│
-├── notebooks/                       # Notebooks de Jupyter
-│   ├── data_exploration.ipynb       # Exploración de datos y visualización
-│   └── model_training.ipynb         # Entrenamiento y evaluación del modelo
-│
-├── results/                         # Resultados del modelo
-│   ├── evaluation_plots.png         # Gráficos de evaluación del modelo
-│   └── model_metrics.txt            # Métricas del modelo
-│
-├── scripts/                         # Scripts para procesamiento y entrenamiento
-│   ├── data_cleaning.py             # Limpieza y preparación de los datos
-│   ├── data_visualization.py        # Visualización de los datos
-│   └── train_model.py               # Script para entrenar el modelo
-│
-├── src/                             # Código fuente principal
-│   ├── naive_bayes_classifier.py    # Implementación del clasificador Naive Bayes
-│   └── pca_analysis.py              # Análisis de PCA
-│
-├── .gitignore                       # Archivos ignorados por git
-├── README.md                        # Este archivo
-└── requirements.txt                 # Dependencias del proyecto
+- `wine-classification-pca-naivebayes/`
+  - `data/`
+    - `raw/` - Datos crudos descargados
+      - `wine.data` - Conjunto de datos original
+      - `wine.names` - Descripción del conjunto de datos
+    - `processed/` - Datos procesados y limpios
+      - `cleaned_wine_data.csv` - Datos finales utilizados
+  - `docs/` - Documentación
+    - `final_report.pdf` - Informe final del proyecto
+  - `environments/` - Configuración del entorno virtual
+    - `env/` - Entorno virtual de Python
+  - `models/` - Modelos entrenados
+    - `naive_bayes_model.pkl` - Modelo Naive Bayes entrenado
+    - `best_naive_bayes_model.pkl` - Mejor modelo entrenado
+  - `notebooks/` - Notebooks de Jupyter
+    - `data_exploration.ipynb` - Exploración de datos y visualización
+    - `model_training.ipynb` - Entrenamiento y evaluación del modelo
+  - `results/` - Resultados del modelo
+    - `evaluation_plots.png` - Gráficos de evaluación del modelo
+    - `model_metrics.txt` - Métricas del modelo
+  - `scripts/` - Scripts para procesamiento y entrenamiento
+    - `data_cleaning.py` - Limpieza y preparación de los datos
+    - `data_visualization.py` - Visualización de los datos
+    - `train_model.py` - Script para entrenar el modelo
+  - `src/` - Código fuente principal
+    - `naive_bayes_classifier.py` - Implementación del clasificador Naive Bayes
+    - `pca_analysis.py` - Análisis de PCA
+  - `.gitignore` - Archivos ignorados por git
+  - `README.md` - Este archivo
+  - `requirements.txt` - Dependencias del proyecto
+
 
 
 ## Requisitos
