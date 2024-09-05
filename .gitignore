@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+environments/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Hidden files and folders
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Dataset files (if you don't want to version control them)
+data/raw/
+data/processed/
+
+# Output files from models and experiments
+results/
+models/
+
+# Large files that could be generated during processing
+*.h5
+*.pkl
+*.csv
+
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# Visual Studio Code settings (if you're using VS Code)
+.vscode/
+
+# Python virtual environments
+env/
+.env/
+
+# Other common files
+*.bak
+*.swp
+*.swo
