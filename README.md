@@ -38,7 +38,7 @@ wine-classification-pca-naivebayes/
 │
 ├── notebooks/                       # Notebooks de Jupyter
 │   ├── data_exploration.ipynb       # Exploración de datos y visualización
-│   ├── model_training.ipynb         # Entrenamiento y evaluación del modelo
+│   └── model_training.ipynb         # Entrenamiento y evaluación del modelo
 │
 ├── results/                         # Resultados del modelo
 │   ├── evaluation_plots.png         # Gráficos de evaluación del modelo
@@ -56,6 +56,7 @@ wine-classification-pca-naivebayes/
 ├── .gitignore                       # Archivos ignorados por git
 ├── README.md                        # Este archivo
 └── requirements.txt                 # Dependencias del proyecto
+
 
 ## Requisitos
 Para ejecutar este proyecto, se necesita instalar las siguientes bibliotecas de Python:
